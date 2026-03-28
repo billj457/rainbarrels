@@ -1,6 +1,6 @@
 # rainbarrels
 220 gallon rain barrel array with level sensor and 2 zone watering automation (MQTT, Home Assistant)
-
+````
 esphome:
   name: "rain-barrel-monitor-d7ba38"
   friendly_name: Rain Barrel Monitor
@@ -73,3 +73,4 @@ sensor:
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
+````
